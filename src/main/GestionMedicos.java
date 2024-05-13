@@ -6,7 +6,12 @@ import java.util.List;
 // Clase para manejar las consultas médicas
 public class GestionMedicos {
     
-    private List<Medico> medicos = new ArrayList<>();// Calendario de citas
+    private List<Medico> medicos;// ArrayList médicos
+
+    
+    public GestionMedicos() {
+        this.medicos = new ArrayList<>();
+    }
 
     // TODO: Método para añadir un medico a la lista 
     public void addMedico(Medico medico) {
