@@ -11,7 +11,8 @@ public class AplicacionSalud {
         if (registro.verificarCredenciales("usuario1", "contraseña1")) {
             // Simulando las funcionalidades de consulta médica
             GestionMedicos consulta = new GestionMedicos();
-            //TODO: addMedicos 
+            //TODO: addMedicos
+            consulta.addMedico(new Medico("Belen","Bugallo","Cardiología","Cirujana")); 
             consulta.buscarEspecialistas("Cardiología");
             consulta.verRecetas("Paciente1");
             consulta.generarInforme("Paciente1");
