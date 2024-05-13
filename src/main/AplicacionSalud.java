@@ -6,7 +6,7 @@ public class AplicacionSalud {
         // Simulando el registro de usuario
         RegistroUsuario registro = new RegistroUsuario();
         registro.registrarUsuario("usuario1", "contraseña1");
-
+        
         // Simulando el inicio de sesión
         if (registro.verificarCredenciales("usuario1", "contraseña1")) {
             // Simulando las funcionalidades de consulta médica
